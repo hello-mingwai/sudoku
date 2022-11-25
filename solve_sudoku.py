@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# Ref: https://sudoku.com/hard/
+
 def consume(question:str):
     question = [c for c in question if c in "0123456789"]
     if len(question) != 81:
